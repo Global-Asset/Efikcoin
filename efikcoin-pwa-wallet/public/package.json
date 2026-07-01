@@ -1,6 +1,5 @@
-"scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject"
+{
+  "name": "efikcoin-pwa-wallet-public-placeholder",
+  "private": true,
+  "description": "Placeholder package.json removed to avoid Vercel picking public/ as project root. The real package.json is at efikcoin-pwa-wallet/package.json."
 }

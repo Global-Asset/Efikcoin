@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/icon-192.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#050816" />
+
+    <title>EFIKCOIN Wallet</title>
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <!-- Description -->
+    <meta
+      name="description"
+      content="EFIKCOIN Wallet — a self‑custodian PWA wallet for EFIKCOIN (EFC) on BNB Smart Chain. Own your keys, manage your tokens, and access the EFIKCOIN ecosystem."
+    />
+
+    <!-- Fonts & Styles -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        font-family: "Inter", sans-serif;
+        background-color: #050816;
+        color: white;
+        text-align: center;
+      }
+      #root {
+        padding: 40px;
+      }
+      h1 {
+        color: #2563eb;
+      }
+      p {
+        color: #9ca3af;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run EFIKCOIN Wallet.</noscript>
+    <div id="root">
+      <h1>EFIKCOIN Wallet</h1>
+      <p>Loading your digital planet ecosystem...</p>
+    </div>
+    <!-- React app will mount here -->
+    <script src="%PUBLIC_URL%/service-worker.js"></script>
+  </body>
+</html>
